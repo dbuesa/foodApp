@@ -48,7 +48,7 @@ export class FoodService {
         price: 13.99,
         cookTime: '12-18',
         favorite: true,
-        origins: ['Italy'],
+        origins: ["Italy"],
         stars: 3,
         imageUrl: '/assets/images/Foods/pizza.jpg'
       },
@@ -61,6 +61,36 @@ export class FoodService {
         origins: ['Spain'],
         stars: 4,
         imageUrl: '/assets/images/Foods/meat.jpg'
+      },
+      {
+        id:6,
+        name: 'Brownie',
+        price: 5.99,
+        cookTime: '3-5',
+        favorite: true,
+        origins: ['Dark temptation', 'USA'],
+        stars: 5,
+        imageUrl: '/assets/images/Foods/brownie.jpg'
+      },
+      {
+        id:7,
+        name: 'Bolognesa',
+        price: 9.99,
+        cookTime: '15-20',
+        favorite: true,
+        origins: ['Italy'],
+        stars: 3.5,
+        imageUrl: '/assets/images/Foods/bolognesa.jpg'
+      },
+      {
+        id:8,
+        name: '"Croquetas"',
+        price: 4.99,
+        cookTime: '2-4',
+        favorite: true,
+        origins: ['Spain'],
+        stars: 5,
+        imageUrl: '/assets/images/Foods/croquetas.jpg'
       }
     ]
   }
