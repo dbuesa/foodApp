@@ -15,22 +15,28 @@ ul li a{
     margin: 0.5rem;
     flex-direction: column;
     overflow: hidden;
+    outline: none;
+    text-decoration: none !important;
+    
 }
 li a img {
    width: 320px;
    height: 200px;
-   
+   text-decoration: none !important;
 }
 
 li a:hover{
     opacity: 0.85;
     cursor: pointer;
+    text-decoration: none !important;
 }
 
 .content{
     padding: .5rem 1rem;
     position: relative;
     background-color: white;
+    text-decoration: none !important;
+    color: black;
 }
 
 .favorite{
@@ -38,10 +44,11 @@ li a:hover{
     top: .5rem;
     right: 1rem;
     font-size: 1.2rem;
+    color: rgb(24, 24, 24);
 }
 
 .favorite.not{
-    color: grey
+    color: rgb(172, 172, 172)
 }
 
 .product-item-footer{
@@ -52,13 +59,14 @@ li a:hover{
 .origins {
     flex: 9;
 }
-.origins span{
+.origins span {
     border-radius: 2rem;
     background-color: beige;
     display: inline-block;
     font-size: .8rem;
-    color: black;
+    color: black !important; 
     margin-right: .3rem;
+    text-decoration: none;
 }
 
 .cook-time{
