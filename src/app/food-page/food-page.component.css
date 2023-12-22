@@ -18,6 +18,7 @@ img{
     flex: 1 0;
     object-fit: cover;
     margin: 1rem;
+    height: 420px;
 }
 .details{
     width: 100%;
