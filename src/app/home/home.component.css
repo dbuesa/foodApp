@@ -15,7 +15,6 @@ ul li a{
     margin: 0.5rem;
     flex-direction: column;
     overflow: hidden;
-
 }
 li a img {
    width: 320px;
@@ -31,6 +30,7 @@ li a:hover{
 .content{
     padding: .5rem 1rem;
     position: relative;
+    background-color: white;
 }
 
 .favorite{
