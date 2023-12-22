@@ -66,6 +66,22 @@
         "hash": "13044518069027839699"
       },
       {
+        "file": ".nx/cache/file-map.json",
+        "hash": "5763056076539686570"
+      },
+      {
+        "file": ".nx/cache/lockfile.hash",
+        "hash": "6714486670032021519"
+      },
+      {
+        "file": ".nx/cache/parsed-lock-file.json",
+        "hash": "14732419017951889267"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "10126894040537046637"
+      },
+      {
         "file": ".vscode/extensions.json",
         "hash": "5331566439708925252"
       },
@@ -143,11 +159,11 @@
       },
       {
         "file": "src/app/home/home.component.css",
-        "hash": "11286111727419787461"
+        "hash": "9439164803256207222"
       },
       {
         "file": "src/app/home/home.component.html",
-        "hash": "14331203200701792707"
+        "hash": "7290445799281292400"
       },
       {
         "file": "src/app/home/home.component.spec.ts",
@@ -163,7 +179,7 @@
       },
       {
         "file": "src/app/services/food/food.service.ts",
-        "hash": "15598650027249370689"
+        "hash": "5043768449167743816"
       },
       {
         "file": "src/app/shared/models/food.ts",
@@ -172,6 +188,18 @@
       {
         "file": "src/assets/.gitkeep",
         "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/assets/images/Foods/bolognesa.jpg",
+        "hash": "10926046859650189945"
+      },
+      {
+        "file": "src/assets/images/Foods/brownie.jpg",
+        "hash": "10997593899079851485"
+      },
+      {
+        "file": "src/assets/images/Foods/croquetas.jpg",
+        "hash": "17604280275218747249"
       },
       {
         "file": "src/assets/images/Foods/fruits.jpg",

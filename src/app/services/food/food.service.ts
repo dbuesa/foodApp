@@ -13,7 +13,7 @@ export class FoodService {
       {
         id:1,
         name: 'Assortment of fruit',
-        price: 4,
+        price: 3.99S,
         cookTime: '2-3',
         favorite: true,
         origins: ['Morocco', 'Spain'],
