@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Food } from '../../shared/models/food'
-
+import { Tag } from '../../shared/models/tag'
 @Injectable({
   providedIn: 'root'
 })
@@ -8,6 +8,27 @@ export class FoodService {
 
   constructor() { }
 
+  getAllFoodsByTag(tag:string):Food[]{
+    return tag == 'All' ? this.getAll() : this.getAll().filter(food => food.tags?.includes(tag))
+  }
+  getAllFoodsBySearchTerm(searchTerm:string):Food[]{
+
+    return this.getAll().filter(food =>
+    food.name.toLowerCase().includes(searchTerm.toLowerCase()));
+
+  }
+
+  getAllTags(): Tag[]{
+    return [
+    {name: 'All', count: 8},
+    {name: 'Lunch', count: 6},
+    {name: 'Dessert', count: 2},
+    {name: 'FastFood', count: 3},
+    {name: 'CertifiedMeat', count: 1},
+    {name: 'ItalianFood', count: 3},
+    {name: 'SpanishFood', count: 2}
+    ]
+  }
   getAll(): Food[]{
     return [
       {
@@ -19,7 +40,7 @@ export class FoodService {
         origins: ['Morocco', 'Spain'],
         stars: 3.5,
         imageUrl: '/assets/images/Foods/fruits.jpg',
-        tags: ['Fast food', 'Dessert']
+        tags: ['FastFood', 'Dessert']
       },
       {
         id:2,
@@ -30,7 +51,7 @@ export class FoodService {
         origins: ['USA', 'France'],
         stars: 4.5,
         imageUrl: '/assets/images/Foods/hamburger.jpg',
-        tags: ['Lunch', 'Certified meat']
+        tags: ['Lunch', 'CertifiedMeat']
       },
       {
         id:3,
@@ -40,7 +61,8 @@ export class FoodService {
         favorite: false,
         origins: ['Italy', 'France'],
         stars: 4,
-        imageUrl: '/assets/images/Foods/lasagna.jpg'
+        imageUrl: '/assets/images/Foods/lasagna.jpg',
+        tags: ['Lunch', 'ItalianFood']
       },
       {
         id:4,
@@ -50,7 +72,8 @@ export class FoodService {
         favorite: true,
         origins: ["Italy"],
         stars: 3,
-        imageUrl: '/assets/images/Foods/pizza.jpg'
+        imageUrl: '/assets/images/Foods/pizza.jpg',
+        tags: ['Lunch', 'ItalianFood']
       },
       {
         id:5,
@@ -60,7 +83,8 @@ export class FoodService {
         favorite: false,
         origins: ['Spain'],
         stars: 4,
-        imageUrl: '/assets/images/Foods/meat.jpg'
+        imageUrl: '/assets/images/Foods/meat.jpg',
+        tags: ['Lunch', 'SpanishFood']
       },
       {
         id:6,
@@ -70,17 +94,19 @@ export class FoodService {
         favorite: true,
         origins: ['Dark temptation', 'USA'],
         stars: 5,
-        imageUrl: '/assets/images/Foods/brownie.jpg'
+        imageUrl: '/assets/images/Foods/brownie.jpg',
+        tags: ['Dessert', 'FastFood']
       },
       {
         id:7,
         name: 'Bolognesa',
         price: 9.99,
         cookTime: '15-20',
-        favorite: true,
+        favorite: false,
         origins: ['Italy'],
         stars: 3.5,
-        imageUrl: '/assets/images/Foods/bolognesa.jpg'
+        imageUrl: '/assets/images/Foods/bolognesa.jpg',
+        tags: ['Lunch', 'ItalianFood']
       },
       {
         id:8,
@@ -90,7 +116,8 @@ export class FoodService {
         favorite: true,
         origins: ['Spain'],
         stars: 5,
-        imageUrl: '/assets/images/Foods/croquetas.jpg'
+        imageUrl: '/assets/images/Foods/croquetas.jpg',
+        tags: ['Lunch', 'SpanishFood', 'FastFood']
       }
     ]
   }
