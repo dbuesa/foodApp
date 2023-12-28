@@ -67,7 +67,7 @@
       },
       {
         "file": ".nx/cache/file-map.json",
-        "hash": "5763056076539686570"
+        "hash": "16356257895830584782"
       },
       {
         "file": ".nx/cache/lockfile.hash",
@@ -79,7 +79,7 @@
       },
       {
         "file": ".nx/cache/project-graph.json",
-        "hash": "10126894040537046637"
+        "hash": "15860480404095378290"
       },
       {
         "file": ".vscode/extensions.json",
@@ -115,7 +115,7 @@
       },
       {
         "file": "src/app/app-routing.module.ts",
-        "hash": "13294971125208050011"
+        "hash": "240572839934728046"
       },
       {
         "file": "src/app/app.component.css",
@@ -139,7 +139,23 @@
       },
       {
         "file": "src/app/app.module.ts",
-        "hash": "13975977520542954054"
+        "hash": "3949645926167691773"
+      },
+      {
+        "file": "src/app/food-page/food-page.component.css",
+        "hash": "7723088241776701000"
+      },
+      {
+        "file": "src/app/food-page/food-page.component.html",
+        "hash": "15810777333938333473"
+      },
+      {
+        "file": "src/app/food-page/food-page.component.spec.ts",
+        "hash": "1944625490493993484"
+      },
+      {
+        "file": "src/app/food-page/food-page.component.ts",
+        "hash": "6109548747405455299"
       },
       {
         "file": "src/app/header/header.component.css",
@@ -147,7 +163,7 @@
       },
       {
         "file": "src/app/header/header.component.html",
-        "hash": "11891903103749246054"
+        "hash": "6249760062222826779"
       },
       {
         "file": "src/app/header/header.component.spec.ts",
@@ -159,11 +175,11 @@
       },
       {
         "file": "src/app/home/home.component.css",
-        "hash": "9439164803256207222"
+        "hash": "8156685300596716145"
       },
       {
         "file": "src/app/home/home.component.html",
-        "hash": "7290445799281292400"
+        "hash": "9316984707653816879"
       },
       {
         "file": "src/app/home/home.component.spec.ts",
@@ -171,7 +187,23 @@
       },
       {
         "file": "src/app/home/home.component.ts",
-        "hash": "10532849011302532533"
+        "hash": "2902813422235028405"
+      },
+      {
+        "file": "src/app/search/search.component.css",
+        "hash": "1739593253971848789"
+      },
+      {
+        "file": "src/app/search/search.component.html",
+        "hash": "4381617865462363716"
+      },
+      {
+        "file": "src/app/search/search.component.spec.ts",
+        "hash": "18395705285149967537"
+      },
+      {
+        "file": "src/app/search/search.component.ts",
+        "hash": "11897224897181822587"
       },
       {
         "file": "src/app/services/food/food.service.spec.ts",
@@ -179,11 +211,31 @@
       },
       {
         "file": "src/app/services/food/food.service.ts",
-        "hash": "5043768449167743816"
+        "hash": "7239063468799062139"
       },
       {
         "file": "src/app/shared/models/food.ts",
         "hash": "7369253873635860568"
+      },
+      {
+        "file": "src/app/shared/models/tag.ts",
+        "hash": "13534818623624019761"
+      },
+      {
+        "file": "src/app/tags/tags.component.css",
+        "hash": "18128917925271969211"
+      },
+      {
+        "file": "src/app/tags/tags.component.html",
+        "hash": "9740706657248057077"
+      },
+      {
+        "file": "src/app/tags/tags.component.spec.ts",
+        "hash": "10035310523937386301"
+      },
+      {
+        "file": "src/app/tags/tags.component.ts",
+        "hash": "9223320097752618225"
       },
       {
         "file": "src/assets/.gitkeep",
@@ -239,7 +291,7 @@
       },
       {
         "file": "src/styles.css",
-        "hash": "2875293645286273699"
+        "hash": "3591789141147447909"
       },
       {
         "file": "tsconfig.app.json",
