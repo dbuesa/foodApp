@@ -67,7 +67,7 @@
       },
       {
         "file": ".nx/cache/file-map.json",
-        "hash": "16356257895830584782"
+        "hash": "3325610549680723349"
       },
       {
         "file": ".nx/cache/lockfile.hash",
@@ -79,7 +79,7 @@
       },
       {
         "file": ".nx/cache/project-graph.json",
-        "hash": "15860480404095378290"
+        "hash": "16850202217173778391"
       },
       {
         "file": ".vscode/extensions.json",
@@ -115,7 +115,7 @@
       },
       {
         "file": "src/app/app-routing.module.ts",
-        "hash": "240572839934728046"
+        "hash": "8751496085708102292"
       },
       {
         "file": "src/app/app.component.css",
@@ -139,7 +139,23 @@
       },
       {
         "file": "src/app/app.module.ts",
-        "hash": "3949645926167691773"
+        "hash": "16494507045211182409"
+      },
+      {
+        "file": "src/app/cart-page/cart-page.component.css",
+        "hash": "9849910282307203727"
+      },
+      {
+        "file": "src/app/cart-page/cart-page.component.html",
+        "hash": "8366072569713773070"
+      },
+      {
+        "file": "src/app/cart-page/cart-page.component.spec.ts",
+        "hash": "14474816108143878068"
+      },
+      {
+        "file": "src/app/cart-page/cart-page.component.ts",
+        "hash": "978267359206090528"
       },
       {
         "file": "src/app/food-page/food-page.component.css",
@@ -147,7 +163,7 @@
       },
       {
         "file": "src/app/food-page/food-page.component.html",
-        "hash": "15810777333938333473"
+        "hash": "2930863761995013035"
       },
       {
         "file": "src/app/food-page/food-page.component.spec.ts",
@@ -155,7 +171,7 @@
       },
       {
         "file": "src/app/food-page/food-page.component.ts",
-        "hash": "6109548747405455299"
+        "hash": "9415487555125218693"
       },
       {
         "file": "src/app/header/header.component.css",
@@ -206,12 +222,28 @@
         "hash": "11897224897181822587"
       },
       {
+        "file": "src/app/services/cart/cart.service.spec.ts",
+        "hash": "4835626579989819090"
+      },
+      {
+        "file": "src/app/services/cart/cart.service.ts",
+        "hash": "18000061911986604592"
+      },
+      {
         "file": "src/app/services/food/food.service.spec.ts",
         "hash": "18069345178732726394"
       },
       {
         "file": "src/app/services/food/food.service.ts",
         "hash": "7239063468799062139"
+      },
+      {
+        "file": "src/app/shared/models/Cart.ts",
+        "hash": "4854312709398446343"
+      },
+      {
+        "file": "src/app/shared/models/CartItem.ts",
+        "hash": "10565877603069412306"
       },
       {
         "file": "src/app/shared/models/food.ts",
